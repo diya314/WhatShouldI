@@ -104,7 +104,7 @@ def chooseOutfit(temp, gender, skin, formalness)
             "female" => {
                 "skin" => {
                     "formal" => " a brown lace slim double breasted coat over a shirt/sweater with brown knee high boots",
-                    "casual" => " a long open black coat over a tutleneck striped shirt with shorts and black ankle high boots",
+                    "casual" => " a long open black coat over a turtleneck striped shirt with shorts and black ankle high boots",
                 },
                 "no skin" => {
                     "formal" => "white blouse, black jeans, and heels",
@@ -248,8 +248,3 @@ def chooseTV(genre, violence, leadGender, userAge)
     
 end 
 
-# ---------------------------------------------------------MORE MOVIES--------------------------------------------
-
-def moreMovies
-    
-end 
