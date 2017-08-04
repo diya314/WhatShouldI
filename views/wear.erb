@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Dosis:700');
+             h4{
+                font-size:20px;
+                font-family: 'Dosis', sans-serif;
+            }
+             body{
+               background-image: url("https://cdn.treatingscoliosis.com/components/com_wordpress/wp/wp-content/uploads/2016/07/pexels-photo-25641.jpg");
+               background-size: 1500px 800px;
+               background-repeat: no-repeat;
+               font-weight: bold;
+               color: white;
+            }
+            
+             button {
+                display: inline-block;
+                border-radius: 4px;
+                background-color: #f720e5;
+                border: none;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 20px;
+                padding: 20px;
+                width: 200px;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 5px;
+            }
+
+            
+
+            button:hover {
+              padding-right: 25px;
+               box-shadow: 10px 10px 5px #888888;
+            }
+
+            button:hover span:after {
+              opacity: 1;
+              right: 0;
+            }
+        
+        </style>
+        
+    </head>
+    
+    <body>
+        <form method="POST" action="resultsWear">
+            <h1>I don't have anything to wear!!!</h1>
+            
+            <h4> Is it hot or cold today? </h4>
+            <input type="radio" name="temp" value="hot"> Hot <br>
+            <input type="radio" name="temp" value="cold"> Cold <br>
+            
+            <h4> What gender are you? </h4>
+            <input type="radio" name="gender" value="male"> Male <br>
+            <input type="radio" name="gender" value="female"> Female <br>
+            
+            <h4> Should your garments should skin? (; </h4>
+            <input type="radio" name="skin" value="skin"> Show skin <br>
+            <input type="radio" name="skin" value="no skin"> No skin <br>
+            
+            <h4> Should your attire be formal or casual? </h4>
+            <input type="radio" name="formalness" value="formal"> Formal <br>
+            <input type="radio" name="formalness" value="casual"> Casual <br>
+            
+            <button type ="submit"> Submit </button>
+            
+        </form>
+        
+    </body>
+</html>

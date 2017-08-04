@@ -1,0 +1,7 @@
+body:hover{
+    background-image:url("https://dncache-mauganscorp.netdna-ssl.com/thumbseg/1085/1085500-bigthumbnail.jpg");
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    height:100;
+}
+

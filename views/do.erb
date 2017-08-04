@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <style>
+     @import url('https://fonts.googleapis.com/css?family=Dosis');
+             h4{
+                font-family: 'Dosis', sans-serif;
+            }
+             body{
+                background-color:#dd6ae8;
+              
+            }
+            
+             button {
+                display: inline-block;
+                border-radius: 4px;
+                background-color: #f720e5;
+                border: none;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 20px;
+                padding: 20px;
+                width: 200px;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 5px;
+            }
+
+            
+
+            button:hover {
+              padding-right: 25px;
+               box-shadow: 10px 10px 5px #888888;
+            }
+
+            button:hover span:after {
+              opacity: 1;
+              right: 0;
+            }
+            img{
+                float: right;
+            }
+            .inline{
+                display: inline;
+                float: left;
+            }
+            </style>
+  </head>
+  <body>
+      <h1>What to do...what to do...</h1>
+
+   <form class="inline" method="POST" action="resultsDo">
+            
+            <h4> Are you a day or night person?</h4>
+            <input type="radio" name="day_night" value="night"> Night<br>
+            <input type="radio" name="day_night" value="day"> Day <br>
+            
+            <h4> Where do you spend most of your time? </h4>
+            <input type="radio" name="in_out" value="outside"> Outside <br>
+            <input type="radio" name="in_out" value="inside"> Inside <br>
+            
+            <h4> Are you lazy? </h4>
+            <input type="radio" name="lazy" value="yes"> Yes <br>
+            <input type="radio" name="lazy" value="no"> No <br>
+            
+            <h4> Are you reserved or adventurous? </h4>
+            <input type="radio" name="r_a" value="reserved"> Reserved <br>
+            <input type="radio" name="r_a" value="adventurous"> Adventurous <br>
+            
+            <button type ="submit"> Submit </button>
+            
+        </form>
+        <img src="https://media.tenor.com/images/fd53171945f4b555b05f813f66e67da2/tenor.gif">
+  </body>
+</html>

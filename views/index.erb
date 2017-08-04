@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">-->
+  <style>
+  /*body {*/
+  /*  background: url("https://cdn.pixabay.com/photo/2017/06/21/11/22/decision-2426937__340.jpg");*/
+  /*  background-repeat: no-repeat;*/
+  /*  background-size: 900px 500px;*/
+  /*}*/
+  
+  body {
+    background: #6147e0;
+  }
+  .template {
+    /*position: relative;*/
+    color: white;
+    text-align: center;
+    background: none;
+  }
+    .navbar {
+      background-color: #3a1adb;
+      
+    }
+    div a {
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+      padding: 25px;
+      display:inline-block;
+    }
+    ul {
+      display: inline;
+      padding: 0px;
+    }
+    ul li {
+      display: inline-block;
+      margin: 0px;
+    }
+  ul li:hover {background: #2a00ff;}
+  ul li:hover ul {display: block;}
+  ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  ul li ul li { 
+    background: #2a00ff; 
+    display: block; 
+  }
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #00b2ff;}
+
+ #bored {
+  height:700px;
+}
+
+#what_should{
+  font-family: "Times New Roman", Times, serif;
+}
+#watch_me{
+  font-family: "Times New Roman", Times, serif;
+}
+#wear{
+  font-family: "Times New Roman", Times, serif;
+}
+#fixed{
+  border-style:groove;
+}
+
+
+
+
+  </style>
+  
+</head>
+<body>
+
+<div class = "navbar">
+<a href="#!" class="brand-logo" id= "what_should"> What Should I... </a>
+  <ul>
+    <li id ="wear"> <a href="wear.erb"> Wear </a> </li>
+    
+    <li id ="watch_me">
+      <a href="#"> Watch </a></a>
+      <ul>
+        <li><a href="watchTV.erb"> TV Shows </a></li>
+        <li><a href="watchMovie.erb"> Movies </a></li>
+      </ul>
+      
+      <li><a href="do.erb"> Do </a></li>
+      
+    </li>
+  </ul>
+</div>
+
+<div class = "template">
+  <h2> Welcome to What Should I: Our Decision Making Website! </h2>
+  <h3> Struggling to Make a Decision? </h3>
+  <h3>Bored?</h3>
+  <h3> Then This Website is For You! </h3>
+    <div > 
+      <img id = "fixed" src = "https://cdn.pixabay.com/photo/2017/06/21/11/22/decision-2426937__340.jpg"/>
+    </div>
+  <!--<img id ="bored" src="https://media.tenor.com/images/fd53171945f4b555b05f813f66e67da2/tenor.gif">-->
+  
+</div>
+</body>
+</html>
